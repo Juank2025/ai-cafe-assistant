@@ -32,7 +32,7 @@ Un chatbot inteligente desarrollado en Python utilizando **LangChain, Cohere, FA
 - ☁️ **Despliegue 24/7:** Configurado como servicio de sistema (`systemd`) en una instancia **AWS EC2 (Ubuntu)**.
 
 ---
-´´´
+´´´text
 ## 🏗️ Arquitectura del Sistema
 
 Usuario (Telegram)
@@ -53,7 +53,7 @@ Información PDF
 ---
 
 ## 📂 Estructura del proyecto
-´´´
+´´´text
 ai-cafe-assistant/
 │
 ├── documentos/
@@ -112,9 +112,9 @@ ai-cafe-assistant/
 
 Crear un archivo .env en la raiz del proyecto con la estructura:
 
-TELEGRAM_TOKEN=tu_telegram_bot_token
-COHERE_API_KEY=tu_api_key_de_cohere
-GOOGLE_API_KEY=tu_api_key_de_google
+TELEGRAM_TOKEN=telegram_bot_token
+COHERE_API_KEY=api_key_de_cohere
+GOOGLE_API_KEY=api_key_de_google
 
 ▶️ Modos de Ejecución
 
