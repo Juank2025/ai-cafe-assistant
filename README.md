@@ -1,3 +1,10 @@
+## 🔗 Enlace Público del Bot en Producción
+
+Puedes probar el bot desplegado en AWS EC2 directamente en Telegram:
+👉 **[Interactuar con el Bot de Telegram](https://t.me/CafeDeliciasBot)**
+
+- **IP del Servidor (AWS EC2):** `3.139.106.88` (Servicio activo vía Systemd en puerto por defecto)
+
 # ☕ Café Delicias del Norte - Agente IA con LangChain (RAG)
 
 Un chatbot inteligente desarrollado en Python utilizando **LangChain, Cohere, FAISS y Telegram Bot API**, capaz de responder consultas sobre una cafetería utilizando la técnica **RAG** (*Retrieval-Augmented Generation*).
