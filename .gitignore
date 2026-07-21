@@ -1,0 +1,23 @@
+# Entorno virtual
+venv/
+
+# Variables de entorno
+.env
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Configuración del editor
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Base de datos FAISS
+data/faiss_index/
+
+# Logs
+*.log

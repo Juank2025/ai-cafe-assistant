@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-cohere
+cohere
+faiss-cpu
+pandas
+openpyxl
+pypdf
+python-dotenv
+python-telegram-bot
