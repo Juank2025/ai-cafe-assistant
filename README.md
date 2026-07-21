@@ -112,9 +112,9 @@ ai-cafe-assistant/
 
 Crear un archivo .env en la raiz del proyecto con la estructura:
 
-   TELEGRAM_TOKEN=tu_telegram_bot_token
-   COHERE_API_KEY=tu_api_key_de_cohere
-   GOOGLE_API_KEY=tu_api_key_de_google
+TELEGRAM_TOKEN=tu_telegram_bot_token
+COHERE_API_KEY=tu_api_key_de_cohere
+GOOGLE_API_KEY=tu_api_key_de_google
 
 ▶️ Modos de Ejecución
 
@@ -150,7 +150,8 @@ journalctl -u cafebot -f
 
 [ ] Integración con WhatsApp Business API.
 
-👨‍💻 Autor
-Juan Carlos Palma Adones
+
+°👨‍💻 Autor
+°Juan Carlos Palma Adones
 
 Proyecto desarrollado como práctica de Inteligencia Artificial utilizando LangChain y RAG.
