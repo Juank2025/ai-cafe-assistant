@@ -35,7 +35,7 @@ Un chatbot inteligente desarrollado en Python utilizando **LangChain, Cohere, FA
 
 ## 🏗️ Arquitectura del Sistema
 
-´´´text
+```text
 Usuario (Telegram)
        │
        ▼
@@ -50,12 +50,12 @@ FAISS Vector Store    Productos (Excel)
   │
   ▼
 Información PDF
-´´´
+```
 ---
 
 ## 📂 Estructura del proyecto
 
-´´´text
+```text
 ai-cafe-assistant/
 │
 ├── documentos/
@@ -78,7 +78,7 @@ ai-cafe-assistant/
 ├── requirements.txt         # Dependencias del proyecto
 ├── .env                     # Variables de entorno (API Keys)
 └── README.md
-´´´
+```
 
 ## 🛠️ Tecnologías utilizadas
 
@@ -114,11 +114,11 @@ ai-cafe-assistant/
 🔑 Variables de Entorno
 
 Crear un archivo .env en la raiz del proyecto con la estructura:
-
+```env
 TELEGRAM_TOKEN=telegram_bot_token
 COHERE_API_KEY=api_key_de_cohere
 GOOGLE_API_KEY=api_key_de_google
-
+```
 ▶️ Modos de Ejecución
 
 Pruebas locales:
@@ -134,15 +134,16 @@ sudo systemctl status cafebot
 journalctl -u cafebot -f
 
 💬 Ejemplos de Preguntas que responde el Bot
-¿Cuál es el horario de atención?
 
-¿Aceptan pagos con tarjeta de crédito/débito?
++ ¿Cuál es el horario de atención?
 
-¿Cuánto cuesta un Café Latte y qué postres tienen?
++ ¿Aceptan pagos con tarjeta de crédito/débito?
 
-¿Tienen conexión WiFi disponible?
++ ¿Cuánto cuesta un Café Latte y qué postres tienen?
 
-¿Aceptan mascotas en el establecimiento?
++ ¿Tienen conexión WiFi disponible?
+
++ ¿Aceptan mascotas en el establecimiento?
 
 📈 Futuras Mejoras
 [ ] Memoria conversacional por usuario (Chat History).
