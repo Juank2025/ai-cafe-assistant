@@ -32,7 +32,7 @@ Un chatbot inteligente desarrollado en Python utilizando **LangChain, Cohere, FA
 - ☁️ **Despliegue 24/7:** Configurado como servicio de sistema (`systemd`) en una instancia **AWS EC2 (Ubuntu)**.
 
 ---
-
+´´´
 ## 🏗️ Arquitectura del Sistema
 
 Usuario (Telegram)
@@ -49,11 +49,11 @@ FAISS Vector Store    Productos (Excel)
   │
   ▼
 Información PDF
-
+´´´
 ---
 
 ## 📂 Estructura del proyecto
-
+´´´
 ai-cafe-assistant/
 │
 ├── documentos/
@@ -76,7 +76,7 @@ ai-cafe-assistant/
 ├── requirements.txt         # Dependencias del proyecto
 ├── .env                     # Variables de entorno (API Keys)
 └── README.md
-
+´´´
 ## 🛠️ Tecnologías utilizadas
 
 - Lenguaje: Python 3.12 / 3.13
@@ -151,7 +151,7 @@ journalctl -u cafebot -f
 [ ] Integración con WhatsApp Business API.
 
 
-°👨‍💻 Autor
-°Juan Carlos Palma Adones
+👨‍💻 Autor
+**Juan Carlos Palma Adones**
 
-Proyecto desarrollado como práctica de Inteligencia Artificial utilizando LangChain y RAG.
+*Proyecto desarrollado como práctica de Inteligencia Artificial utilizando LangChain y RAG.*
