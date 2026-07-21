@@ -53,13 +53,8 @@ Puedes preguntarme sobre:
         )
 
     def ejecutar(self):
-        # URL del proxy de PythonAnywhere (cuentas free)
-        PROXY_URL = "http://proxy.server:3128"
-
         app = Application.builder()\
             .token(TELEGRAM_TOKEN)\
-            .proxy(PROXY_URL)\
-            .get_updates_proxy(PROXY_URL)\
             .build()
 
         app.add_handler(
